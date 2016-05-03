@@ -27,7 +27,7 @@ public class MouseListener implements NativeMouseInputListener {
             newcoord = false;
             whichcoord = 0;
         }
-        if (mousecoordinates.size() > 2) {
+        if (mousecoordinates.size() > 3) {
             mousecoordinates.removeFirst();
         }
 
