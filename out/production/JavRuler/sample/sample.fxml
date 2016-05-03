@@ -8,17 +8,12 @@
 <GridPane fx:controller="sample.Controller"
           xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
     <Button GridPane.rowIndex="1"
-            GridPane.columnIndex="0"
-            onAction="#startRecord">
-        Set Length
-    </Button>
-    <Button GridPane.rowIndex="1"
             GridPane.columnIndex="1"
-            onAction="#newCoords">
+            onAction="#findLength">
         Find Length
     </Button>
     <TextField GridPane.rowIndex="0"
-               GridPane.columnIndex="0"
+               GridPane.columnIndex="1"
                fx:id="lengthorig"
                visible="true">
     </TextField>

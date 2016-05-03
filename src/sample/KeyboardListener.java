@@ -9,8 +9,9 @@ public class KeyboardListener implements NativeKeyListener {
         String keyChecker =  NativeKeyEvent.getKeyText(e.getKeyCode());
         if (keyChecker.equals("F12")) {
             MouseListener.newcoord = true;
-            MouseListener.newcoordinates.clear();
+            MouseListener.originalcoordinates.clear();
         }
+        System.out.print(keyChecker);
     }
 
     public void nativeKeyReleased(NativeKeyEvent e) {
