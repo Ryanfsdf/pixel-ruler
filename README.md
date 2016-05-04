@@ -17,7 +17,7 @@ press F12, click on "0km" and then "1000km" on the scale at the bottom of the ma
 click on Calgary and Montreal, then press 
 "Find Length". This will give you an exact distance of 2982.85km
 
-<img src="https://github.com/Ryanfsdf/JavRuler/blob/master/CanadaMap.jpg" width="500">
+<img src="https://github.com/Ryanfsdf/JavRuler/blob/master/CanadaMap.jpg" width="700">
 
 <img src="https://github.com/Ryanfsdf/JavRuler/blob/master/JavRuler.png" width="500">
 
