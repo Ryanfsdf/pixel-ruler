@@ -18,8 +18,12 @@ public class MouseListener implements NativeMouseInputListener {
     }
 
     public void nativeMousePressed(NativeMouseEvent e) {
+    }
+
+    public void nativeMouseReleased(NativeMouseEvent e) {
         mousecoordinates.add((Integer.toString(e.getX())) + " " + (Integer.toString(e.getY())));
         System.out.print(mousecoordinates);
+        
         if (newcoord == true && whichcoord < 2) {
             originalcoordinates.add((Integer.toString(e.getX())) + " " + (Integer.toString(e.getY())));
             System.out.print(originalcoordinates);
@@ -33,11 +37,6 @@ public class MouseListener implements NativeMouseInputListener {
         if (mousecoordinates.size() > 3) {
             mousecoordinates.removeFirst();
         }
-
-    }
-
-    public void nativeMouseReleased(NativeMouseEvent e) {
-
     }
 
     public void nativeMouseMoved(NativeMouseEvent e) {
