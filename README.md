@@ -13,7 +13,7 @@ before pressing "Find Length" are returned, with the distance being in relation 
 
 EXAMPLE USE:
 Trying to eyeball the exact distance between Calgary and Montreal would be difficult. With JavRuler, you can simply
-press F12, click on "0km" and then "1000km" on the scale at the bottom of the map and input 1000 in the text field, 
+press F12, click on "0km" and then "1000km" on the scale at the bottom of the map, input 1000 into the text field, 
 click on Calgary and Montreal, then press 
 "Find Length". This will give you an exact distance of 2982.85km
 
