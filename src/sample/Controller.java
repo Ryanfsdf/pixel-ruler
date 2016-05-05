@@ -34,8 +34,8 @@ public class Controller {
         displaydistance();
     }
     public void displaydistance() {
-        displayMessage.alertBox(Double.toString(Double.parseDouble(lengthorig.getText()) * firstdistance
-                /seconddistance), "Distance");
+        displayMessage.alertBox(Double.toString(Math.round(Double.parseDouble(lengthorig.getText()) *
+                100.0 * firstdistance/seconddistance)/100.0), "Distance");
     }
 
     public static void newCoord() {
