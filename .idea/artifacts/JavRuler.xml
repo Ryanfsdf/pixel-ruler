@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="JavRuler:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/JavRuler_jar</output-path>
+  <artifact type="jar" name="JavRuler">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavRuler</output-path>
     <root id="archive" name="JavRuler.jar">
       <element id="module-output" name="JavRuler" />
       <element id="extracted-dir" path="$USER_HOME$/Downloads/JNativeHook/jar/jnativehook-2.0.3.jar" path-in-jar="/" />
