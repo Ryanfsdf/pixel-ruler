@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PixelRuler">
+    <output-path>$PROJECT_DIR$/out/artifacts/PixelRuler</output-path>
+    <root id="archive" name="PixelRuler.jar">
+      <element id="module-output" name="PixelRuler" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jnativehook-2.0.3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
