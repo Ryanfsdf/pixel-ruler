@@ -7,7 +7,7 @@ installed on your computer. Then, run the PixelRuler.jar file in /out/artifacts 
 
 HOW TO USE:
   * Press on your F12 key and click on any 2 points on the screen. These 2 points will be your reference points.
-  * Input a number of what you would like the distance between these 2 points would be.
+  * Input a number of what you would like to set the distance between these 2 points to be
   * The distance of the last 2 points that are clicked on the screen
 before pressing "Find Length" are returned, with the distance being in relation to the chosen reference points and the inputted number
 
@@ -21,6 +21,6 @@ press F12, click on "0km" and then "1000km" on the scale at the bottom of the ma
 click on Calgary and Montreal, then press 
 "Find Length". This will give you an exact distance of 2982.85km
 
-<img src="https://github.com/Ryanfsdf/PixelRuler/blob/master/CanadaMap.jpg" width="700">
+<img src="https://github.com/Ryanfsdf/PixelRuler/blob/master/CanadaMap.jpg" width="600">
 
 
